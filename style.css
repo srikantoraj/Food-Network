@@ -65,6 +65,30 @@ h3{
 #intro{
  width: 70%;
 }
+#header{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.recipies-gallery{
+    width: 90%;
+    margin: 0 auto;
+}
+.gallery {
+  float: left;
+  margin: 10px 10px 10px 40px;
+  padding: 20px;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px #ccc;
+}
+
+.recipies-item {
+  width: 100%;
+  height: auto;
+}
 
 
 
