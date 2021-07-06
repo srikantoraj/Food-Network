@@ -11,7 +11,9 @@ h3{
     font-size: 23px;
     font-weight: 700;
     color:rgb(77, 73, 73);
-    margin-bottom:10%;
+}
+#padding{
+   margin-top: 50px;
 }
 
 .colored-text{
@@ -89,6 +91,32 @@ h3{
   width: 100%;
   height: auto;
 }
+.recipies{
+    padding-bottom: 500px;
+}
+.subscriber{
+    width: 84%;
+    margin: 100px auto;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px #ccc;
+}
+#footer{
+    text-align: center;
+    background-color:rgb(43, 42, 42);
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#footer-slogan{
+    color:whitesmoke;
+    padding-bottom: 20px;
+}
+
+
 
 
 
