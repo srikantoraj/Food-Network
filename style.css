@@ -1,16 +1,24 @@
 body{
     font-family: Roboto;
     margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 h1{
     font-size: 55px;
 }
 h3{
     font-size: 23px;
+    font-weight: 700;
     color:rgb(77, 73, 73);
+    margin-bottom:10%;
 }
+
 .colored-text{
     color:#fd6a02;
+}
+.home{
+    padding-bottom:60px;
 }
 .flexible-container{
     display: flex;
@@ -26,4 +34,37 @@ h3{
 .left{
     margin-top: 5%;
 }
+.link-btn{
+    text-decoration: none;
+    color:white;
+    font-size: 1.5em;
+    font-weight: 900;
+    padding:20px 20px;
+    border-radius:30px;
+    background-image: linear-gradient(to right, #ff9966, #ff5e62); ;
+    box-shadow: 3px 3px 10px #ff5e62;
+    
+}
+.order-btn{
+    margin-left: 25%;
+}
+
+.about-me{
+    background-size:100% 100%;
+    background-image: url(images/aboutme.jpg);
+    background-repeat: no-repeat;
+    padding:5% 0%;
+    
+   
+}
+.container-item-img img{
+    width: 40%;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+#intro{
+ width: 70%;
+}
+
+
 
